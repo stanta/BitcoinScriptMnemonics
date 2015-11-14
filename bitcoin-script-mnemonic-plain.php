@@ -1,4 +1,10 @@
 <?php
+# Bitcoin script mnemonics as PHP constants  by stanta
+# just from https://en.bitcoin.it/wiki/Script
+# (cc) (GPL)
+# 1M39TMQXDqiHwSbg6fJMTF9XB8eUa9f982 for donations 
+# 
+
 define('OP_0' , '0'); 
 define('OP_FALSE' , '0'); #');# 0x00#Nothing.(empty value)An empty array of bytes is pushed onto the stack. (This is not a no-op: an item is added to the stack.)
 # N/A1-75');# 0x01-');# 0x4b(special)dataThe next opcode bytes is data to be pushed onto the stack
